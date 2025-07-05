@@ -1,0 +1,13 @@
+name: Saludo simple
+
+on: [push]
+
+jobs:
+  saludo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v4
+
+      - name: Decir hola
+        run: echo "¡Hola desde GitHub Actions! 🎉"
