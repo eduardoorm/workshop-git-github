@@ -1,4 +1,4 @@
-name: Verifica archivos de entrega
+name: Verifica archivos
 
 on:
   pull_request:
